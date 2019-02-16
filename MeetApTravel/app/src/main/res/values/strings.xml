@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MeetApTravel</string>
+    <string name="harga">Harga:</string>
+    <string name="kecamatan">Kecamatan:</string>
+    <string name="alamat">Alamat:</string>
+    <string name="jam_operational">Jam Operational:</string>
+    <string name="deskripsi">Deskripsi:</string>
+    <string name="lihat_map">Lihat Map</string>
+    <string name="pesan_tiket">Pesan Tiket</string>
+    <string name="masukkan_jumlah_tiket">Masukkan jumlah tiket</string>
+    <string name="beli_tiket">Beli Tiket</string>
+    <string name="nomor_telepon">Nomor telepon:</string>
+</resources>

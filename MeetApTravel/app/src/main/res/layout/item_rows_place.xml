@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_default">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:id="@+id/rlItemPlace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="@dimen/margin_default">
+            <ImageView
+                    android:id="@+id/imgItemPlace"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher_round"
+                    android:layout_marginRight="@dimen/margin_default"/>
+            <TextView
+                    android:id="@+id/tvNameItemPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    tools:text="Ini nama tempat"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/tvDistanceItemPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvNameItemPlace"
+                    tools:text="Jarak: 200Km"/>
+            <TextView
+                    android:id="@+id/tvPriceItemPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvDistanceItemPlace"
+                    tools:text="Harga: Rp. 12.000,00"/>
+            <TextView
+                    android:id="@+id/tvDistrictItemPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvPriceItemPlace"
+                    tools:text="Kecamatan: bogor tengah"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
